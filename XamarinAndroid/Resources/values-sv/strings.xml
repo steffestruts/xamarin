@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Localization: English -->
+<resources>
+  <string name="applicationName">Unmaze</string>
+  <!-- Activity: Login -->
+  <string name="btnLoginForgotPassword">Glömt lösenord?</string>
+  <string name="btnLoginUser">Logga in</string>
+  <string name="txtLoginSlogan">En plattform för din marknadsföring resa</string>
+  <string name="txtLoginName">Användarnamn</string>
+  <string name="txtLoginPassword">Lösenord</string>
+  <!-- Campaign -->
+  <string name="txtCampaigSubscribersTitle">Prenumeranter</string>
+  <string name="txtCampaignDateTitle">Datum</string>
+  <string name="txtCampaignIsActiveTitle">Status</string>
+  <string name="txtCampaignClicksTitle">Träffar</string>
+  <string name="isActiveTrue">Avslutad</string>
+  <string name="isActiveFalse">Pågående</string>
+  <!-- Custom: List Row -->
+  <string name="txtItemSubtitle">Kampanj Underrubrik</string>
+  <string name="txtItemTitle">Kampanj Rubrik</string>
+  <!-- Dialog: Login -->
+  <string name="dlgForgotContent"> Detta kommer öppna en ny webbläsaraktivitet där du kan återställa lösenord.</string>
+  <string name="dlgForgotTitle">Glömt lösenord</string>
+  <string name="dlgNegativeButton">Stäng</string>
+  <string name="dlgOutgoingLink">https://platform.unmaze.se/Account/ForgotPassword</string>
+  <string name="dlgPositiveButton">Bekräfta</string>
+</resources>

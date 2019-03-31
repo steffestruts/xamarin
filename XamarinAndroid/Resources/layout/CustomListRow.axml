@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayoutCustomRow"
+    style="@style/customListRow">
+    <TextView
+        android:id="@+id/txtItemTitle"
+        android:text="@string/txtItemTitle"
+        style="@style/txtItemTitle" />
+    <TextView
+        android:id="@+id/txtItemSubtitle"
+        android:text="@string/txtItemSubtitle"
+        style="@style/txtItemSubtitle" />
+</LinearLayout>

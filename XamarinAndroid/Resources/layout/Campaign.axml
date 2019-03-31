@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/campaignActivity">
+        <TextView
+            android:id="@+id/txtCampaignName"
+            android:text="Campaign"
+            style="@style/txtCampaignName" />
+        <TextView
+            android:id="@+id/txtCampaignCategory"
+            android:text="Category"
+            style="@style/txtCampaignCategory" />
+        <TextView
+            android:id="@+id/txtCampaignDescription"
+            android:text="Dicam accumsan id vel, ut volutpat consulatu aliquando vix. Et nam alterum invidunt, eu duo hinc prodesset. Ei vim unum postea percipit."
+            style="@style/txtCampaignDescription" />
+        <LinearLayout
+            style="@style/layoutDate">
+            <TextView
+                android:id="@+id/txtCampaignDateDay"
+                android:text="31"
+                style="@style/txtCampaignContent" />
+            <TextView
+                android:id="@+id/txtCampaignDateMonth"
+                android:text="Month"
+                style="@style/txtCampaignSubtitle" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/layoutSubscribers">
+            <TextView
+                android:id="@+id/txtCampaignSubscribers"
+                android:text="123456789"
+                style="@style/txtCampaignContent" />
+            <TextView
+                android:id="@+id/txtCampaigSubscribersTitle"
+                android:text="@string/txtCampaigSubscribersTitle"
+                style="@style/txtCampaignSubtitle" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

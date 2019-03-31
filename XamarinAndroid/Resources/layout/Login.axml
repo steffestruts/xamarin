@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/welcome"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <View
+        android:layout_above="@+id/viewSolid"
+        android:background="@drawable/gradient"
+        android:layout_height="600dp"
+        android:layout_width="match_parent" />
+    <View
+        android:background="@color/darkColor"
+        android:id="@+id/viewSolid"
+        android:layout_alignParentBottom="true"
+        android:layout_height="200dp"
+        android:layout_width="match_parent" />
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <LinearLayout
+            style="@style/loginActivity">
+            <TextView
+                android:id="@+id/txtLoginSlogan"
+                android:text="@string/txtLoginSlogan"
+                style="@style/loginSlogan"/>
+            <TextView
+                android:id="@+id/txtLoginName"
+                android:text="@string/txtLoginName"
+                style="@style/loginLabel" />
+            <EditText
+                android:id="@+id/edittextLoginName"
+                android:inputType="textVisiblePassword|textNoSuggestions"
+                style="@style/loginInput" />
+            <TextView
+                android:id="@+id/txtLoginPassword"
+                android:text="@string/txtLoginPassword"
+                style="@style/loginLabel" />
+            <EditText
+                android:id="@+id/edittextLoginPassword"
+                android:inputType="textPassword|textNoSuggestions"
+                style="@style/loginInput" />
+            <Button
+                android:id="@+id/btnLoginUser"
+                android:text="@string/btnLoginUser"
+                style="@style/loginButton" />
+            <Button
+                android:id="@+id/btnLoginForgotPassword"
+                android:text="@string/btnLoginForgotPassword"
+                style="@style/loginForgot" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

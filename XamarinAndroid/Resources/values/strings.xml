@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Localization: English -->
+<resources>
+  <string name="applicationName">Unmaze</string>
+  <!-- Activity: Login -->
+  <string name="btnLoginForgotPassword">Forgot password?</string>
+  <string name="btnLoginUser">Login</string>
+  <string name="txtLoginSlogan">One platform for your marketing journey</string>
+  <string name="txtLoginName">Username</string>
+  <string name="txtLoginPassword">Password</string>
+  <!-- Campaign -->
+  <string name="txtCampaigSubscribersTitle">Subscribers</string>
+  <string name="txtCampaignDateTitle">Date</string>
+  <string name="txtCampaignIsActiveTitle">Status</string>
+  <string name="txtCampaignClicksTitle">Clicks</string>
+  <string name="isActiveTrue">Finished</string>
+  <string name="isActiveFalse">In progress</string>
+  <!-- Custom: List Row -->
+  <string name="txtItemSubtitle">Campaign Subtitle</string>
+  <string name="txtItemTitle">Campaign Title</string>
+  <!-- Dialog: Login -->
+  <string name="dlgForgotContent">This will open a new browser activity where you can reset your password.</string>
+  <string name="dlgForgotTitle">Forgot password</string>
+  <string name="dlgNegativeButton">Close</string>
+  <string name="dlgOutgoingLink">https://platform.unmaze.se/Account/ForgotPassword</string>
+  <string name="dlgPositiveButton">Confirm</string>
+</resources>
